@@ -116,12 +116,28 @@ a:hover
     color: rgb(240, 68, 0);
     cursor: pointer;
 }
+
+
 .link-TutoFooter:hover
 {
     text-decoration: none;
     font-weight: 700;
     color: rgb(182, 52, 0);
     cursor: pointer;
+}
+
+.text-gras
+{
+    font-weight: bold;
+    color: rgb(255, 72, 0);
+}
+
+.text-fondamentaux
+{
+    font-weight: bold;
+    color: rgb(0, 165, 0);
+    text-transform: uppercase;
+    text-decoration-line:underline;
 }
 
 

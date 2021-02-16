@@ -1,8 +1,6 @@
-var getButton = document.querySelector(".btn-toggle");
-var getNav = document.querySelector(".nav-menu");
-getButton.addEventListener("click", AddMenu);
+const fruits = ["Kiwi", "Fraise", "Grenadine", "Amande"];
 
-function AddMenu()
-{
-    getNav.classList.add("activeMenu");
-}
+fruits.pop();   // Remove Amande
+fruits.push("Grenade"); // Add Grenade instead
+//accedez a notre dernier element de notre tableau : 
+console.log(fruits[fruits.length -1]);
